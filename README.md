@@ -1,32 +1,55 @@
-# Minimal Portfolio Website Template
+# Aleeza Idrees | Cybersecurity Portfolio
 
-A clean, simple, and responsive single-page portfolio template built with only HTML and CSS. Perfect for developers, designers, and students to showcase their work.
+Welcome to my personal portfolio repository! This website showcases my academic background, technical skills, cybersecurity interests, and practical projects.
 
-This repository is a **GitHub Template**. Click the "**Use this template**" button above to create your own new repository with this code.
+## About Me
 
-## How to Customize
+I am Aleeza Idrees, a BE Information Security student at the Military College of Signals (MCS), NUST. I am interested in cybersecurity, ethical hacking, Linux administration, and network security. I enjoy learning through practical labs and hands-on projects.
 
-It's easy! You only need to edit one file: `index.html`.
+## Education
 
-1.  **Clone or Download:** Get the code on your local machine.
-2.  **Open `index.html`:** Open the file in any code or text editor.
-3.  **Edit the Content:**
-    * **Header:** Find the `<header>` section and change "Your Name Here" and "Your Title".
-    * **About Me:** Find the section with `id="about"` and replace the placeholder text with your own bio.
-    * **Projects:** Find the section with `id="projects"`. Copy the `<div class="project-item">...</div>` block for each project you want to add. Update the `<h3>` (title), `<p>` (description), and `<a>` (link) for each.
-    * **Contact:** Find the section with `id="contact"`. Update the links in the `contact-links` list.
-        * For email, change `mailto:your.email@example.com`.
-        * For GitHub/LinkedIn, change the `href="#"` to your full profile URL.
-    * **Footer:** Update the `&copy; 2025 Your Name` in the `<footer>`.
-4.  **No edits** are needed for `style.css` unless you want to change the colors!
+- **Degree:** BE Information Security
+- **Semester:** 3
+- **Institution:** Military College of Signals (MCS), NUST
 
-## 🚀 How to Go Live with GitHub Pages
+## Technical Skills
 
-You can host this website for **free** using GitHub Pages.
+- Linux (Kali Linux)
+- Git and GitHub
+- Wireshark
+- Python
+- Computer Networking (OSI and TCP/IP)
+- Java (OOP)
 
-1.  **Push your code:** Make sure your customized `index.html` is in your GitHub repository.
-2.  **Go to Settings:** In your repository, click the "Settings" tab.
-3.  **Select "Pages":** In the left-hand menu, click "Pages".
-4.  **Choose Source:** Under "Build and deployment," select "Deploy from a branch".
-5.  **Set Branch:** Select the `main` (or `master`) branch and the `/root` folder. Click **Save**.
-6.  **Done!** After a minute or two, your portfolio will be live at `https://<your-username>.github.io/<your-repository-name>/`.
+## Projects
+
+### 1. Password Strength Checker
+Developed a tool to evaluate the security of user-created passwords.
+
+### 2. ICT Lab 4
+Created a basic programming project that accepts a user's name and displays a greeting.
+
+### 3. Network Traffic Analysis
+Analysed network packets and examined TCP communication using networking tools.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Git and GitHub
+- Visual Studio Code
+- GitHub Copilot
+
+## Live Portfolio
+
+[Visit My Portfolio](https://aleezaidrees204-coder.github.io/)
+
+## Contact
+
+- **Email:** aleezaidrees204@gmail.com
+- **GitHub:** [aleezaidrees204-coder](https://github.com/aleezaidrees204-coder)
+- **LinkedIn:** [Aleeza Idrees](https://www.linkedin.com/in/aleeza-idrees-19a238371/)
+
+## Template Attribution
+
+This portfolio was developed using the openly licensed Minimal Portfolio Website Template by RayBen445. The original MIT license is retained in this repository.
