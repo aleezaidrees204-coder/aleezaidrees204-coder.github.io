@@ -3,18 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Developer Portfolio</title>
+    <title>Aleeza Idrees | Cybersecurity Student & Aspiring Security Professional</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Added: styles for the avatar and skills only -->
+    <style>
+        .avatar {
+            width: 110px; height: 110px;
+            margin: 0 auto 12px;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 2.4rem; font-weight: 700;
+            border: 3px solid currentColor;
+        }
+        .skills-list { list-style: none; display: flex; flex-wrap: wrap; gap: 10px; padding: 0; margin-top: 10px; }
+        .skills-list li { border: 1px solid currentColor; padding: 6px 14px; border-radius: 999px; font-weight: 700; }
+    </style>
 </head>
 <body>
 
     <header class="header">
         <div class="container">
-            <h1>Your Name Here</h1>
-            <p>Your Title (e.g., Full-Stack Web Developer)</p>
+            <!-- Added: avatar -->
+            <div class="avatar" role="img" aria-label="Avatar with initials AI">AI</div>
+            <h1>Aleeza Idrees</h1>
+            <p>Cybersecurity Student & Aspiring Security Professional</p>
+            <!-- Added: degree and semester -->
+            <p>BE Information Security &middot; Semester 3 &middot; Military College of Signals, NUST</p>
         </div>
     </header>
 
@@ -22,11 +40,24 @@
 
         <section id="about" class="card">
             <h2>About Me</h2>
+            <!-- Updated: bio is now about 115 words (required 80-150) -->
             <p>
-                Hello! I'm a passionate developer specializing in [Your Specialty]. 
-                Replace this text with a brief description of your skills, background, 
-                and professional interests. Welcome to my portfolio!
+                I am Aleeza Idrees, a BE Information Security student at the Military College of Signals, NUST, with a growing focus on red teaming and cybersecurity. I enjoy learning by doing: I practise Linux administration on Kali, analyse network traffic in Wireshark, and write small Python tools such as a password strength checker. Alongside my coursework in programming and networking fundamentals, I follow a structured self-study path toward red teaming. I care about understanding how systems work before trying to break or defend them, and I document what I learn so it is useful to others. I am looking to build practical projects, strengthen my fundamentals, and grow into a responsible security professional.
             </p>
+        </section>
+
+        <!-- Added: skills section -->
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+            <p>Tools and technologies I use in my labs and projects.</p>
+            <ul class="skills-list">
+                <li>Linux (Kali)</li>
+                <li>Git &amp; GitHub</li>
+                <li>Wireshark</li>
+                <li>Python</li>
+                <li>Networking (OSI, TCP/IP)</li>
+                <li>Java (OOP)</li>
+            </ul>
         </section>
 
         <section id="projects" class="card">
@@ -36,21 +67,21 @@
             <div class="project-grid">
                 
                 <div class="project-item">
-                    <h3>Project Title 1</h3>
-                    <p>A short description of your project. What was the goal? What tech did you use?</p>
-                    <a href="#" class="btn-link">View Project (Link to GitHub)</a>
+                    <h3>Password Strength Checker</h3>
+                    <p>Developed a tool to evaluate the security of user-created passwords.</p>
+                    <a href="https://github.com/aleezaidrees204-coder" class="btn-link">View Project (Link to GitHub)</a>
                 </div>
                 
                 <div class="project-item">
-                    <h3>Project Title 2</h3>
-                    <p>A short description of your project. What was the goal? What tech did you use?</p>
-                    <a href="#" class="btn-link">View Project (Link to GitHub)</a>
+                    <h3>ICT Lab 4</h3>
+                    <p>This project asks for your name and says hello.</p>
+                    <a href="https://github.com/aleezaidrees204-coder" class="btn-link">View Project (Link to GitHub)</a>
                 </div>
                 
                 <div class="project-item">
-                    <h3>Project Title 3</h3>
-                    <p>A short description of your project. What was the goal? What tech did you use?</p>
-                    <a href="#" class="btn-link">View Project (Link to GitHub)</a>
+                    <h3>Network Traffic Analysis</h3>
+                    <p>Analysed network packets and examined TCP communication.</p>
+                    <a href="https://github.com/aleezaidrees204-coder" class="btn-link">View Project (Link to GitHub)</a>
                 </div>
                 
             </div>
@@ -60,18 +91,17 @@
             <h2>Get In Touch</h2>
             <p>You can reach me via email or find me on social media.</p>
             <ul class="contact-links">
-                <li><a href="mailto:your.email@example.com" class="btn-link">your.email@example.com</a></li>
-                <li><a href="#" class="btn-link">GitHub</a></li>
-                <li><a href="#" class="btn-link">LinkedIn</a></li>
+                <li><a href="mailto:aleezaidrees204@gmail.com" class="btn-link">aleezaidrees204@gmail.com</a></li>
+                <li><a href="https://github.com/aleezaidrees204-coder" class="btn-link">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/aleeza-idrees-19a238371/" class="btn-link">LinkedIn</a></li>
             </ul>
         </section>
 
     </main>
 
     <footer class="footer">
-        <p>&copy; 2025 Your Name. Built using a template from Cool Shot Systems.</p>
+        <p>&copy; 2026 Aleeza Idrees. Built using a template from Cool Shot Systems.</p>
     </footer>
 
 </body>
-  </html>
-  
+</html>
